@@ -21,7 +21,7 @@ h1.header{
     display: -webkit-grid;
     align-items: center;
     justify-content: center;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 2fr));
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     grid-template-rows: minmax(320px, auto);
     grid-gap: 1rem;
     padding-bottom: 2em;
@@ -36,5 +36,6 @@ h1.header{
     background-color: inherit;
     opacity: 0.4;
     box-shadow: 4px 4px 18px red, -4px -4px 18px yellow;
+    padding: 0.5em;
 }
 
