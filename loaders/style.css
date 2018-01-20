@@ -22,7 +22,7 @@ h1.header{
     align-items: center;
     justify-content: center;
     grid-template-columns: repeat(auto-fit, minmax(320px, 2fr));
-    grid-template-rows: minmax(320px, 1fr);
+    grid-template-rows: minmax(320px, auto);
     grid-gap: 1rem;
     padding-bottom: 2em;
     margin-top: 3em;
