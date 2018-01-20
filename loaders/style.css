@@ -31,6 +31,7 @@ h1.header{
 .loader-grid-box{
     display: flex;
     display: -webkit-flex;
+    flex-direction: column;
     height:320px;
     border: solid 1px black;
     border-width: 3px;
