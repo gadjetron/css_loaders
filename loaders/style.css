@@ -29,6 +29,8 @@ h1.header{
 }
 
 .loader-grid-box{
+    display: flex;
+    display: -webkit-flex;
     height:320px;
     border: solid 1px black;
     border-width: 3px;
@@ -38,4 +40,3 @@ h1.header{
     box-shadow: 4px 4px 18px red, -4px -4px 18px yellow;
     padding: 0.5em;
 }
-
