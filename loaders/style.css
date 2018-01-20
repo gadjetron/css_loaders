@@ -25,6 +25,7 @@ h1.header{
     grid-template-rows: minmax(320px, 1fr);
     grid-gap: 1rem;
     padding-bottom: 2em;
+    margin-top: 3em;
 }
 
 .loader-grid-box{
