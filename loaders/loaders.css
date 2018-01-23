@@ -1,0 +1,102 @@
+
+/*
+    Skew-pulse loader
+*/
+
+.skew-pulse-boxes{
+    width: 15em;
+    height: 2em;
+}
+
+.pulse-box{
+    width: 2em;
+    height: 2em;
+    float: left;
+    border: solid 1px black;
+    border-radius: 3px;
+    margin-right: 0.4em;
+    background-color: white;
+    -webkit-animation: ease 2.75s infinite skew-pulse;
+    -o-animation: ease 2.75s infinite skew-pulse;
+    animation: ease 2.75s infinite skew-pulse;
+}
+
+@-webkit-keyframes skew-pulse{
+    0%{
+        transform: skew(45deg);
+    }
+    25%{
+        transform: skew(0deg);
+        transform: scale(0.8);
+    }
+    50%{
+        transform: skew(-45deg);
+    }
+    75%{
+        transform: skew(0deg);
+        transform: scale(0.8);
+    }
+    100%{
+        transform: skew(45deg);
+    }
+}
+
+@-o-keyframes skew-pulse{
+    0%{
+        transform: skew(45deg);
+    }
+    25%{
+        transform: skew(0deg);
+        transform: scale(0.8);
+    }
+    50%{
+        transform: skew(-45deg);
+    }
+    75%{
+        transform: skew(0deg);
+        transform: scale(0.8);
+    }
+    100%{
+        transform: skew(45deg);
+    }
+}
+
+@-moz-keyframes skew-pulse{
+    0%{
+        transform: skew(45deg);
+    }
+    25%{
+        transform: skew(0deg);
+        transform: scale(0.8);
+    }
+    50%{
+        transform: skew(-45deg);
+    }
+    75%{
+        transform: skew(0deg);
+        transform: scale(0.8);
+    }
+    100%{
+        transform: skew(45deg);
+    }
+}
+
+@keyframes skew-pulse{
+    0%{
+        transform: skew(45deg);
+    }
+    25%{
+        transform: skew(0deg);
+        transform: scale(0.8);
+    }
+    50%{
+        transform: skew(-45deg);
+    }
+    75%{
+        transform: skew(0deg);
+        transform: scale(0.8);
+    }
+    100%{
+        transform: skew(45deg);
+    }
+}
