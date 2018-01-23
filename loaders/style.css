@@ -1,10 +1,8 @@
 body{
     width: 90%;
-    height: 30em;
     margin: 0 auto;
     padding: 1em;
     background-color: ghostwhite;
-    margin-top: 1em;
 }
 
 h1.header{
@@ -24,7 +22,7 @@ h1.header{
     grid-template-rows: minmax(320px, auto);
     grid-gap: 1rem;
     margin-top: 3em;
-    padding-bottom: 2em;
+    padding-bottom: 1em;
 }
 
 .loader-grid-box{
@@ -35,7 +33,7 @@ h1.header{
     border: solid 2px black;
     border-radius: 6px;
     background-color: #FFFAFA;
-    padding: 0.4em;
+    padding: 0.3em;
 }
 
 .animation-box{
@@ -44,6 +42,7 @@ h1.header{
     -ms-flex: 2.5;
     -o-flex: 2.5;
     flex: 2.5;
+    padding: 0.4em;
     border: solid 1px black;
     border-radius: 6px 6px 0 0;
     border-bottom: none;
@@ -76,7 +75,7 @@ h1.header{
 
 .view-code-button span{
     font-family: "Book Antiqua";
-    font-size: 30px;
+    font-size: 1.7em;
     font-style: normal;
     font-variant: normal;
     font-weight: 400;
